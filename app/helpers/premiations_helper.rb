@@ -1,0 +1,2 @@
+module PremiationsHelper
+end

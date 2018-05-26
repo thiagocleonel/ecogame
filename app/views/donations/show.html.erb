@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Citizen:</strong>
+  <%= @donation.citizen %>
+</p>
+
+<p>
+  <strong>Ecopoint:</strong>
+  <%= @donation.ecopoint %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @donation.material %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @donation.weight %>
+</p>
+
+<%= link_to 'Edit', edit_donation_path(@donation) %> |
+<%= link_to 'Back', donations_path %>

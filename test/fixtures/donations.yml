@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  citizen: one
+  ecopoint: one
+  material: one
+  weight: 1.5
+
+two:
+  citizen: two
+  ecopoint: two
+  material: two
+  weight: 1.5

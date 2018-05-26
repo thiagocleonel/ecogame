@@ -1,0 +1,2 @@
+module EcopointsHelper
+end

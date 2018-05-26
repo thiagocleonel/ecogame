@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Badge:</strong>
+  <%= @premiation.badge %>
+</p>
+
+<p>
+  <strong>Citizen:</strong>
+  <%= @premiation.citizen %>
+</p>
+
+<%= link_to 'Edit', edit_premiation_path(@premiation) %> |
+<%= link_to 'Back', premiations_path %>

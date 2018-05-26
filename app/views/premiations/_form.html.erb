@@ -1,0 +1,27 @@
+<%= form_with(model: premiation, local: true) do |form| %>
+  <% if premiation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(premiation.errors.count, "error") %> prohibited this premiation from being saved:</h2>
+
+      <ul>
+      <% premiation.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :badge_id %>
+    <%= form.text_field :badge_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :citizen_id %>
+    <%= form.text_field :citizen_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
